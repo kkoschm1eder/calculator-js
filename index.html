@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.2.0/math.js"></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <section class="display">
+        <input data-previousOp class="previous-op" disabled></input>
+        <input data-currentOp class="current-op" disabled></input>
+      </section>
+      <section class="calc-buttons">
+        <button data-clear class="calc-button clear">C</button>
+        <button data-delete class="calc-button">&larr;</button>
+        <button data-operator class="calc-button operator">/</button>
+        <button data-number class="calc-button">7</button>
+        <button data-number class="calc-button">8</button>
+        <button data-number class="calc-button">9</button>
+        <button data-operator class="calc-button operator">*</button>
+        <button data-number class="calc-button">4</button>
+        <button data-number class="calc-button">5</button>
+        <button data-number class="calc-button">6</button>
+        <button data-operator class="calc-button operator">&plus;</button>
+        <button data-number class="calc-button">1</button>
+        <button data-number class="calc-button">2</button>
+        <button data-number class="calc-button">3</button>
+        <button data-operator class="calc-button operator">-</button>
+        <button data-sign class="calc-button">+/-</button>
+        <button data-number class="calc-button">0</button>
+        <button data-dec class="calc-button">.</button>
+        <button data-equal class="calc-button operator">&equals;</button>
+      </section>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
